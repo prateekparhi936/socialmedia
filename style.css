@@ -1,0 +1,205 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Arial,Helvetica,Sans-serif;
+}
+.header{
+   background-color: #3b5998;      /*facebook header color*/
+   height: 75px;
+   border-bottom: 0px;
+   padding-left: auto;
+   padding-right: auto;
+   width: 100%;
+
+}
+#wrapper{
+   margin-left: auto;
+   margin-right: auto;
+   width: 1000px;
+   height: auto;
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+.logo{
+  width: 165px;
+  padding-top: 15px;
+}
+.logo img{
+	width: 155px;
+	height: 45px;
+	padding-top: 5px;
+}
+.search_box{
+	position: absolute;
+	top: 30px;
+	margin-left: 200px;
+}
+#search input[type="text"] {
+    background: url(../img/search-dark.png) no-repeat 10px 6px #fcfcfc;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #6a6f75;
+    width:250px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+   /* -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;*/
+    }
+
+/*#search input[type="text"]:focus {
+    background: url(../img/search-dark.png) no-repeat 10px 6px #fcfcfc;
+    color: #6a6f75;
+    width: 300px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    }*/
+ @media screen and (max-width: 1280px){
+	#menu{
+		 position: absolute;
+         top: 0px;
+         right: 0px;
+         height: 37px;
+         padding-top: 25px;
+         margin-right: 4%;
+	}
+}
+ @media screen and (min-width: 1280px){
+	#menu{
+         position: absolute;
+         top: 0px;
+         right: 0px;
+         height: 37px;
+         padding-top: 37px;
+         margin-right: 10%;
+	}
+}
+ @media screen and (min-width: 1920px){
+	#menu{
+         position: absolute;
+         top: 0px;
+         right: 0px;
+         height: 37px;
+         padding-top: 37px;
+         margin-right: 25%;
+	}
+}
+#menu a{
+    	color: #FFFFFF;
+    	text-decoration: none;
+    	font-size: 14px;
+    	background-repeat: no-repeat;
+    	padding-top: 10px;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    }
+#menu a:hover{
+	       background-color: #afbdd4;
+       }
+.main{
+   background-color: #dfe3ee;      
+   height: 100%;
+   border-bottom: 0px;
+   padding-left: auto;
+   padding-right: auto;
+   width: 100%;
+
+}
+#wrapper{
+   margin-left: auto;
+   margin-right: auto;
+   width: 1000px;
+   height: auto;
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+.tablelogin{
+  position: absolute;
+  top:5px;
+  width:500px;
+  margin-left: 600px;
+}
+
+h2{
+	font: bold 19px Arial,Helvetica,Sans-serif;
+  color: #3b5998; 
+}
+.tableindex{
+	padding-top: 30px;
+	margin-left: 30px;
+   margin-right: 30px;
+   width: 100%;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+#tableindexwrapper{
+	padding-top: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+   width: 1000px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+input[type="Text"]{
+	background-color: #FFFFFF;
+	border: 1px solid #E2E2E2;
+	font-size: 16px;
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	outline: none;
+}
+input[type="Text"]:hover{
+	background-color:  #f7f7f7;
+}
+input[type="submit"]{
+	font: bold 15px Arial,Helvetica,Sans-serif;
+	background-color: #aeee1a;
+	font-color: # #ffffff;
+	border: 2px solid  #ffffff;
+	border-radius: 7px;
+	padding: 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;              
+}
+.textHeader{
+  background-color: #F3F6F9;
+  width: 190px;
+  height: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #DCE5EE;
+}
+.profileLeftSideContent{
+  width: 194px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-left: 5px;
+  height: 200px;
+}
+.postForm{
+  float: right;
+  width: 600px;
+  height: 100px;
+  background-color: #F3F6F9;
+  padding: 5px;
+}
+.profilePosts{
+  float: right;
+  width: 600px;
+  height: auto;
+  background-color: #DCE5EE;
+  padding: 5px;
+}
